@@ -22,6 +22,10 @@
 - [ ] show the link by default
 - [ ] make it work on current picostitch.com
 - [ ] make examples look at least a bit nice, use ps styles
+- [ ] handle attributes to upgrade existing heading tags automatically,
+      `<script defer async data-upgrade-h1 type="module" src="../src/Heading-loader.js"></script>` 
+      like `data-upgrade-h1`, `data-upgrade-h2`, `data-upgrade-h3`,
+      `data-config-h1-show-link`, `data-config-h2-show-link`
 
 # v2.0.0
 
