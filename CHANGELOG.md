@@ -10,6 +10,7 @@
 - [ ] Do the render-when-ready trick, to prevent flickering in case the component changes the rendering.
 - [ ] Write proper tests, that ensure it works in the browser as expected (pupeteer?).
 - [ ] `<script src="MoreHtmlHeading.js?debug"` When loading with debug show messages like "Missing `id` attribute, no link rendered, etc." 
+- [ ] provide senseful properties main, types, module, browser in package.json
 
 # v3.0.0
 
@@ -18,6 +19,9 @@
 - [x] Remove `hash` attribute, cant be jumped to, at least I see no easy way now.
 - [ ] On touch devices, show the link onclick, hide it on a second click.
 - [ ] Feature detect CBEs properly and only load comp when CBEs work, e.g. in Safari
+- [ ] show the link by default
+- [ ] make it work on current picostitch.com
+- [ ] make examples look at least a bit nice, use ps styles
 
 # v2.0.0
 
