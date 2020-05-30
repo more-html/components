@@ -41,9 +41,9 @@ class MoreHtmlHeading extends HTMLHeadingElement {
   }
 }
 
-customElements.define('morehtml-h1', class extends MoreHtmlHeading {}, {extends: "h1"});
-customElements.define('morehtml-h2', class extends MoreHtmlHeading {}, {extends: "h2"});
-customElements.define('morehtml-h3', class extends MoreHtmlHeading {}, {extends: "h3"});
-customElements.define('morehtml-h4', class extends MoreHtmlHeading {}, {extends: "h4"});
-customElements.define('morehtml-h5', class extends MoreHtmlHeading {}, {extends: "h5"});
-customElements.define('morehtml-h6', class extends MoreHtmlHeading {}, {extends: "h6"});
+customElements.define('more-h1', class extends MoreHtmlHeading {}, {extends: "h1"});
+customElements.define('more-h2', class extends MoreHtmlHeading {}, {extends: "h2"});
+customElements.define('more-h3', class extends MoreHtmlHeading {}, {extends: "h3"});
+customElements.define('more-h4', class extends MoreHtmlHeading {}, {extends: "h4"});
+customElements.define('more-h5', class extends MoreHtmlHeading {}, {extends: "h5"});
+customElements.define('more-h6', class extends MoreHtmlHeading {}, {extends: "h6"});
