@@ -5,6 +5,6 @@
     s = s.insertBefore(doc.createElement('script'), s.lastChild);
     s.defer = false;
     s.type = 'module';
-    s.src = '../src/MoreHtmlHeading.js';
+    s.src = '../src/Heading.js';
   }
 }(window,document));
