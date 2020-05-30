@@ -4,7 +4,7 @@
   "description": "Enhance &lt;h1>, &lt;h2>, etc. for example to allow linking to them by default.",
   "main": "index.js",
   "scripts": {
-    "start": "http-server . -d -i --port 48001",
+    "start": "http-server . -d -i --port 48001 --cors",
     "test": "node -r esm ./node_modules/.bin/kavun src",
     "releasable": "node ./scripts/check-todo-list.js",
     "build": "parcel build src/MoreHtmlHeading.js --no-cache --no-source-maps --experimental-scope-hoisting",
