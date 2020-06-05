@@ -1,0 +1,6 @@
+@import "https://picostitch.com/style.css";
+
+/* Basically picostitch style overrides ... if this gets too much move the styles here. */
+main {
+  display: initial;
+}

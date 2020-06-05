@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <title>More HTML - Heading components</title>
-  <link rel="stylesheet" href="https://picostitch.com/style.css">
+  <link rel="stylesheet" href="style.css">
   <script type="module" src="../src/Heading-loader.js"></script>
 </head>
 <body>
@@ -18,73 +18,7 @@
     <li>You can copy+paste that link and it leads straight to this headline</li>
   </ol>
   <p>
-    See a couple of examples below, with different configurations and settings
+    See <a href="./heading-examples.html">the examples page</a>, with different configurations and settings
     and contents.
   </p>
-
-  <h2 is="more-h2" id="h2-1">An H2 Headline with attributes: id and is=more-h2</h2>
-  <p>
-    Expectation: The link should also appear on this H2 on mouseover.
-    <br/>
-    The code:
-    <code>&lt;h2 is="more-h2" id="h2-1"&gt;...</code>
-  </p>
-
-  <h2 is="more-h2" show-link id="h2-2">Show the Link Without Mouseover</h2>
-  <p>
-    Expectation: The link should be visible from the start, even without a mouseover.
-    <br/>
-    The code:
-    <code>&lt;h2 is="more-h2" show-link id="h2-1"&gt;...</code>
-  </p>
-
-  <h2 is="more-h2" show-link id="h2-3">
-    <a href="#">
-      <span>Headline with Multiple Tags Inside</span>
-    </a>
-  </h2>
-  <p>
-    Expectation: The headline itself should be linked to #,
-        the "#" behind it should provide a link with the id as hash at the end.
-    <br/>
-    The code:
-    <code>&lt;h2 is="more-h2" show-link id="h2-3"&gt;&lt;a href="#"&gt;&lt;span&gt;...</code>
-  </p>
-
-  <a href="#">
-    <h2 is="more-h2" show-link id="wrapped-headline">
-      Wrapped Headline in an a-href
-    </h2>
-  </a>
-  <p>
-    Expectation: The headline itself should be linked to #,
-        the "#" behind it should provide a link with the id as hash at the end.
-    <br/>
-    The code:
-    <code>&lt;a href="#"&gt;&lt;h2 is="more-h2" show-link id="wrapped-headline"&gt;...</code>
-  </p>
-
-  <h3 is="more-h3">H3 with Missing id Attribute</h3>
-  <p>
-    Expectation: No link should show up, since the "id" attribute is required and missing here.
-    <br/>
-    The code:
-    <code>&lt;h2 is="more-h3"&gt;...</code>
-  </p>
-
-  <h4 style="margin: 2rem;" is="more-h4" id="h4-headline">
-    H4 Headline with Maring on the left of the Heading.
-  </h4>
-  <p>
-    Expectation: Just work ;)
-    <br/>
-    The code:
-    <code>&lt;h4 style="margin: 2rem;" is="more-h4" id="h4-headline"&gt;...</code>
-  </p>
-
-  <div style="direction: rtl;">
-    <h2 is="more-h2" id="rtl">A RTL H2, let's see how that goes!?</h2>
-    <p>The link should show up on the left of the heading.</p>
-  </div>
-
 </body>
