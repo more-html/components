@@ -35,6 +35,7 @@
 - [x] Document what the component shall do
 
 # Ideas
+- [ ] add "copy URL" icon to headings
 - [ ] Move the `check-todo-list.js` into it's own repo, including the description how and why to use it.
 - [ ] Write out some project guidelines (like gold standard, progressive enhancement by default, etc.)
       Every component in this orga can also use a different web component compiling framework/library, in the
