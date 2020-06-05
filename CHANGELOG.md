@@ -11,6 +11,7 @@
 - [ ] show the link by default, so using the component right away results in a visible result/improvement to the page
       this is mainly a DX feature
 - [ ] make it work on current picostitch.com
+  - [ ] use the nicer link icons not the hashtag (or unicode char) 
 
 # v2.0.0
 
