@@ -4,3 +4,17 @@
 main {
   display: initial;
 }
+
+nav {
+  display: flex;
+  margin-bottom: 2rem;
+}
+  nav * {
+    flex: 1;
+  }
+  nav :nth-child(2) {
+    text-align: center;
+  }
+  nav :last-child {
+    text-align: right;
+  }
