@@ -1,0 +1,1 @@
+export const BASE_URL = 'https://more-html.github.io/components/';
