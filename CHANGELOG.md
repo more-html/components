@@ -9,7 +9,7 @@
 - [x] Use `id` attribute as hash if given. This is the normal style, so we should be compatible with it.
 - [x] Remove `hash` attribute, cant be jumped to, at least I see no easy way now.
 - [x] make examples look at least a bit nice, use ps styles
-- [ ] show the link by default, so using the component right away results in a visible result/improvement to the page
+- [x] show the link by default, so using the component right away results in a visible result/improvement to the page
       this is mainly a DX feature
 - [ ] make it work on current picostitch.com
   - [ ] use the nicer link icons not the hashtag (or unicode char) 

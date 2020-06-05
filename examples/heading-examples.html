@@ -21,7 +21,7 @@
       ways to use this component on this page.
     </p>
     <ol>
-      <li>Click the link at the end of the headline, that appears on mouseover</li>
+      <li>Click the link at the end of the headline</li>
       <li>See the URL change, a <code>#something</code> is added to the end</li>
       <li>You can copy+paste that link and it leads straight to this headline</li>
     </ol>
@@ -30,25 +30,24 @@
       and contents.
     </p>
 
-    <hr/>
 
-    <h2 is="more-h2" id="h2-1">An H2 Headline with attributes: id and is=more-h2</h2>
+    <h2 is="more-h2" id="h2-1">An H2 Headline with attributes: `id` and `is=more-h2`</h2>
     <p>
-      Expectation: The link should also appear on this H2 on mouseover.
+      Expectation: The link should be visible after the heading text.
       <br/>
       The code:
       <code>&lt;h2 is="more-h2" id="h2-1"&gt;...</code>
     </p>
 
-    <h2 is="more-h2" show-link id="h2-2">Show the Link Without Mouseover</h2>
+    <h2 is="more-h2" id="h2-1-hover" show-link-on-mouseover>An H2 Headline with attributes: `id`, `is=more-h2` and `show-link-on-mouseover`</h2>
     <p>
-      Expectation: The link should be visible from the start, even without a mouseover.
+      Expectation: On mouseover the link appears behind H2 text.
       <br/>
       The code:
-      <code>&lt;h2 is="more-h2" show-link id="h2-1"&gt;...</code>
+      <code>&lt;h2 is="more-h2" id="h2-1-hover" show-link-on-mouseover&gt;...</code>
     </p>
 
-    <h2 is="more-h2" show-link id="h2-3">
+    <h2 is="more-h2" id="h2-3">
       <a href="#">
         <span>Headline with Multiple Tags Inside</span>
       </a>
@@ -58,43 +57,54 @@
           the "#" behind it should provide a link with the id as hash at the end.
       <br/>
       The code:
-      <code>&lt;h2 is="more-h2" show-link id="h2-3"&gt;&lt;a href="#"&gt;&lt;span&gt;...</code>
+      <code>&lt;h2 is="more-h2" id="h2-3"&gt;&lt;a href="#"&gt;&lt;span&gt;...</code>
     </p>
 
     <a href="#">
-      <h2 is="more-h2" show-link id="wrapped-headline">
+      <h2 is="more-h2" id="wrapped-headline">
         Wrapped Headline in an a-href
       </h2>
     </a>
     <p>
       Expectation: The headline itself should be linked to #,
-          the "#" behind it should provide a link with the id as hash at the end.
+      the link-symbol behind it should provide a link ending in <code>#wrapped-headline</code>.
       <br/>
       The code:
-      <code>&lt;a href="#"&gt;&lt;h2 is="more-h2" show-link id="wrapped-headline"&gt;...</code>
+      <code>&lt;a href="#"&gt;&lt;h2 is="more-h2" id="wrapped-headline"&gt;...</code>
     </p>
 
-    <h3 is="more-h3">H3 with Missing id Attribute</h3>
+    <h3 is="more-h3">H3 with Missing `id` Attribute</h3>
     <p>
-      Expectation: No link should show up, since the "id" attribute is required and missing here.
+      Expectation: No link shows up.
+      <br/>
+      Reason: The "id" attribute is required.
       <br/>
       The code:
       <code>&lt;h2 is="more-h3"&gt;...</code>
     </p>
 
     <h4 style="margin: 2rem;" is="more-h4" id="h4-headline">
-      H4 Headline with Maring on the left of the Heading.
+      H4 Headline with Margin on the left of the Heading.
     </h4>
     <p>
-      Expectation: Just work ;)
+      Expectation: Render the headline with the link-symbol indented on the left.
       <br/>
       The code:
       <code>&lt;h4 style="margin: 2rem;" is="more-h4" id="h4-headline"&gt;...</code>
     </p>
 
     <div style="direction: rtl;">
-      <h2 is="more-h2" id="rtl">A RTL H2, let's see how that goes!?</h2>
-      <p>The link should show up on the left of the heading.</p>
+      <h2 is="more-h2" id="rtl">A RTL H2</h2>
+      <p>
+        Expectation: The link should show up on the left of the heading.
+        <br/>
+        The code:
+        <br/>
+        <code>
+          &lt;div style="direction: rtl;"&gt;
+          &lt;h2 is=more-h2 id=rtl&gt;
+        </code>
+      </p>
     </div>
   </main>
 </body>

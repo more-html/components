@@ -32,12 +32,12 @@ class Heading extends HTMLHeadingElement {
 
     const showLinkable = () => this.shadowRoot.querySelector('.linkable').classList.add('show');
     const hideLinkable = () => this.shadowRoot.querySelector('.linkable').classList.remove('show');
-    if (this.hasAttribute('show-link')) {
-      showLinkable();
-    } else {
+    if (this.hasAttribute('show-link-on-mouseover')) {
       this.addEventListener('pointerover', showLinkable);
       this.addEventListener('pointerout', hideLinkable);
-    }	
+    } else {
+      showLinkable();
+    }
   }
 }
 

@@ -24,10 +24,10 @@ headline, in case it has an `id` attribute.
 **How to use it?** 
 - Add `<script type="module" async defer src="https://more-html.github.io/components/src/Heading-loader.js"></script>`
   in your HTML page.
-- Enhance all H1 tags with the `is` attribute like this: `<h1 is=more-h1>...</h1>`
-- Add the attribute `show-link` to render the "#" right away, even when not hovered.
-- Make sure the H1 tags have an `id` attribute, otherwise nothing will happen.
-- Done, you should see the "#" symbol (on hover) show up after the headline and it should be clickable and link straight to this headline.
+- Enhance all H1 tags with the `is` attribute like this: `<h1 is=more-h1 id="...">...</h1>`
+- Make sure the H1 tags have an `id` attribute, otherwise no link-symbol will show up.
+- Done, you should see the link-symbol show up behind the headline text and it should be clickable and link straight to this headline.
+- Add the attribute `show-link-on-mouseover` (no value needed) to NOT render the link symbol right away, but just on hover.
 
 [heading-examples]: https://more-html.github.io/components/examples/heading.html 
 
