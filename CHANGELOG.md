@@ -1,12 +1,15 @@
+# Next version
+- [ ] Feature detect CBEs properly and only load comp when CBEs work, e.g. in Safari
+- [ ] On touch devices, show the link onclick, hide it on a second click.
+
 # v3.0.0
 
 - [x] remove nix setup, replace by docker, way more compatible with the real world
 - [x] Use `id` attribute as hash if given. This is the normal style, so we should be compatible with it.
 - [x] Remove `hash` attribute, cant be jumped to, at least I see no easy way now.
 - [x] make examples look at least a bit nice, use ps styles
-- [ ] On touch devices, show the link onclick, hide it on a second click.
-- [ ] Feature detect CBEs properly and only load comp when CBEs work, e.g. in Safari
-- [ ] show the link by default
+- [ ] show the link by default, so using the component right away results in a visible result/improvement to the page
+      this is mainly a DX feature
 - [ ] make it work on current picostitch.com
 
 # v2.0.0
