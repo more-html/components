@@ -2,6 +2,7 @@
 - [ ] Feature detect CBEs properly and only load comp when CBEs work, e.g. in Safari
 - [ ] On touch devices, show the link onclick, hide it on a second click.
 - [ ] use the examples page(s) for automated tests
+- [ ] load CBEs polyfill (for WebKit)? 
 
 # v3.0.0
 
