@@ -15,7 +15,7 @@ template.innerHTML = `
     }
   </style>
   <slot></slot>
-  <a class="linkable">#</a>
+  <a class="linkable">🔗</a>
 `;
 
 class Heading extends HTMLHeadingElement {
