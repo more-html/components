@@ -50,3 +50,4 @@ This might allow to auto generate tweets, etc.
 - spoiler
 - abstract
 - highlight anchor
+- enhance tables (though quite difficult) see the table here https://picostitch.com/blog/2020/04/19-build-measure-speed-repeat/#conclusion
