@@ -9,7 +9,7 @@ the URL gets a hash added to it, for example "#heading-component"
 and now the URL can be copied and pasted anywhere and it will take
 the visitor straight to this paragraph of the text.
 
-[example]: https://github.com/more-html/heading-component/blob/master/README.md#heading-component
+[example]: https://github.com/more-html/heading-component/blob/main/README.md#heading-component
 
 ## How to build it?
 
