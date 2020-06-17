@@ -3,6 +3,7 @@
 - [ ] On touch devices, show the link onclick, hide it on a second click.
 - [ ] use the examples page(s) for automated tests
 - [ ] load CBEs polyfill (for WebKit)? 
+- [ ] allow the more-hX to be configured to show a tooltip and allow copying the URL, see https://developers.google.com/analytics/devguides/collection/analyticsjs/field-reference#nonInteraction for inspiration, pretty neat, just that the link is ONLY for copying
 
 # v3.0.0
 
