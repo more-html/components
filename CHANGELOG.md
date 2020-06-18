@@ -7,6 +7,8 @@
 
 # v3.0.0
 
+- [ ] make branch `main` deploy (maybe not with travis but gh actions?)
+  - [ ] finally  remove branch `master`
 - [x] remove nix setup, replace by docker, way more compatible with the real world
 - [x] Use `id` attribute as hash if given. This is the normal style, so we should be compatible with it.
 - [x] Remove `hash` attribute, cant be jumped to, at least I see no easy way now.
